@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5{
     flex-grow: 1;
 }
 .block-container{
-    padding-top:20px;
+    padding:20px 0px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -221,6 +221,7 @@ h4.cta-title {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex:2;
 }
 #map>iframe{
     width: 100%;
