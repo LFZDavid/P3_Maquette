@@ -28,6 +28,9 @@ h1,h2,h3,h4,h5{
     background-color: var(--p-gold);
     border-color: var(--p-gold);
 }
+body{
+    background-color: var(--p-dark);
+}
 
 /* HEADER */
 #header{
@@ -188,6 +191,16 @@ h1,h2,h3,h4,h5{
 .cta-title{
     font-size: 18px;
 }
+/* Actus */
+#actus>.card-container{
+    flex-wrap: wrap;
+}
+#actus>.card-container>.card{
+    margin-left: auto;
+    margin-right:auto;
+    width: 90%;
+}
+
 /* Prog  */
 #prog>.form-control{
     width:40%;
@@ -295,6 +308,10 @@ footer{
 }
 /* Media queries*/
 @media only screen and (min-width: 992px) {
+    #main{
+        margin: 0 10%;
+    }
+
     #log-nav-item{
         display:none;
     }
@@ -334,5 +351,10 @@ footer{
     .f-links-container{
         display: flex;
     }
-    
+    #actus>.card-container{
+        flex-wrap: nowrap;
+    }
+    #actus>.card-container>.card{
+        margin:10px 7px;
+    }
   }
