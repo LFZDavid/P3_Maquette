@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5{
     border-color: var(--p-gold);
 }
 body{
-    background-color: var(--p-dark);
+    background-color: #000;
 }
 
 /* HEADER */
