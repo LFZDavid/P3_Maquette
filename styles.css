@@ -177,7 +177,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 10px 10px 10px;
-    margin-top:20px;
+    margin-top:auto;
     background-color: var(--p-lighter);
     box-sizing: border-box;
     border-bottom-left-radius: 1.5rem ;
